@@ -80,7 +80,7 @@ Auth-MERN/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/muhammadhussain29/AUTH-MERN.git
+git clone [https://github.com/muhammadhussain29/AUTH-MERN.git](https://github.com/muhammadhussain29/Authentication-System-MERN)
 cd AUTH-MERN
 ```
 
