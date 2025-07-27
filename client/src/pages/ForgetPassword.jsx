@@ -148,7 +148,7 @@ const ForgetPassword = () => {
       const response = await axios.post('http://localhost:4000/api/auth/send-reset-otp', { email });
       setIsLoading(false)
       if (response.data.success) {
-        alert("OTP sent");
+        toast.info("OTP sent");
         setResendDisabled(true);
         setTimer(60); // Start from 60 seconds
 
@@ -163,10 +163,10 @@ const ForgetPassword = () => {
           });
         }, 1000);
       } else {
-        alert(response.data.msg);
+        toast.error(response.data.msg);
       }
     } catch (error) {
-      alert("Something went wrong while resending OTP");
+      toast.error("Something went wrong while resending OTP");
       setIsLoading(false)
     }
   };
