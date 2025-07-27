@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+
+
+.roboto{
+  font-family: "Roboto", sans-serif;
+}
+
+.inter{
+  font-family: "Inter", sans-serif;
+}
+
+.bitcount {
+  font-family: "Bitcount", system-ui;
+}
