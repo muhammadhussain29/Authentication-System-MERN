@@ -157,8 +157,9 @@ npm run dev
 ---
 
 ## 📸 Screenshots
+<img src="Preview/home.png" alt="Screenshot" width="500"/>
+<img src="Preview/signin-signup.png" alt="Screenshot" width="500"/>
 
-<Add screenshots here showing registration, email verification, login, home page etc.>
 
 ---
 
@@ -167,19 +168,9 @@ npm run dev
 **Muhammad Hussain Mughal**
 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/muhammad-hussain-mughal-213069248/)
-- 🌐 Portfolio: *Coming Soon*
 
 ---
 
 ## 📄 License
 
 This project is licensed under the MIT License.
-
----
-
-## 💡 Future Improvements
-
-- Role-based access control (admin/user)
-- Social logins (Google, Facebook)
-- Rate-limiting for OTP endpoints
-- Dark mode UI toggle
