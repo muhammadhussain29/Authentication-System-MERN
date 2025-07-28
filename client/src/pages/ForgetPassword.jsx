@@ -145,7 +145,7 @@ const ForgetPassword = () => {
   const handleResendOtp = async () => {
     try {
       setIsLoading(true)
-      const response = await axios.post('http://localhost:4000/api/auth/send-reset-otp', { email });
+      const response = await axios.post(`${serverURL}/api/auth/send-reset-otp`, { email });
       setIsLoading(false)
       if (response.data.success) {
         toast.info("OTP sent");
